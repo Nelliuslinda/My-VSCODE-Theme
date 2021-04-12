@@ -1,0 +1,21 @@
+{
+    "name": "my-vscode-theme",
+    "displayName": "My VSCODE Theme",
+    "description": "My theme :)",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "My VSCODE Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/My VSCODE Theme-color-theme.json"
+            }
+        ]
+    }
+}
